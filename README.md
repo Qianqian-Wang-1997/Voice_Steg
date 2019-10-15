@@ -21,9 +21,10 @@ Huang Y, Liu C, Tang S, et al. Steganography integration into a low-bit rate spe
 # 使用方式：
 1：准备音频数据 g729a有两个特征 LPC（三维）和PD（二维），用准备py脚本提取，工具为比赛方提供，使用concat.py将其拼成五位=维数据一起训练    
 2：使用DANN_ATT_final.py 进行训练。
+注：cnn_lstm_att.py里是没有DA的，test效果很差之前想分别用不同的特征训练，再把结果合起来，效果和瞎猜差不多。
 
 # 最终结果
-7/18 准确率0.5235 差一名就拿名次辽。  
+7/18 准确率0.5235 差一名就拿名次辽，虽然就比瞎猜好那么一丢丢。  
 加了DA提了四个点，俩星期，太悲惨辽，感谢老卢同志的场外支持。
 
 2019.10.15
